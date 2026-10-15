@@ -1,0 +1,2 @@
+All DBMS have different dialect, difference is small
+PostgreSQL are closest to standard SQL

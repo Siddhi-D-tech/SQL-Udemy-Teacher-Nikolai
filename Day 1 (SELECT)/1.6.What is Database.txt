@@ -1,0 +1,10 @@
+Database -> Schema -> Tables
+
+Schemas are used to structure databases
+
+
+Database Management System -> e.g. PostgreSQL, MySQL, Microsoft SQL Server
+Graphical Interface -> PgAdmin
+
+
+Different Dilect

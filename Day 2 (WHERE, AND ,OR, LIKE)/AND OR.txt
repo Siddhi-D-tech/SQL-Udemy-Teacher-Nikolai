@@ -1,0 +1,6 @@
+AND  : ALl of conditions must be true
+
+Used to connect two conditions
+
+
+ The nth condition will be executed first
