@@ -1,0 +1,18 @@
+SELECT
+SUM(CASE
+WHEN rating IN ('PG','G') THEN 1
+ELSE 0
+END) as no_of_ratings
+FROM film;
+
+SELECT 
+rating
+FROM film;
+
+SELECT
+SUM(CASE WHEN rating = 'G' THEN 1 ELSE 0 END) AS "G"
+, SUM(CASE WHEN rating = 'PG-13' THEN 1 ELSE 0 END) AS "PG-13"
+, SUM(CASE WHEN rating = 'R' THEN 1 ELSE 0 END) AS "R"
+, SUM(CASE WHEN rating = 'NC-17' THEN 1 ELSE 0 END) AS "NC-17"
+, SUM(CASE WHEN rating = 'PG' THEN 1 ELSE 0 END) AS "PG"
+FROM film;
